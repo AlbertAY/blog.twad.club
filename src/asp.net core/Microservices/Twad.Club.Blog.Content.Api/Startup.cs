@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Twad.Club.Blog.Content
+namespace Twad.Club.Blog.Content.Api
 {
     public class Startup
     {
@@ -29,7 +29,7 @@ namespace Twad.Club.Blog.Content
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Twad.Club.Blog.Content", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Twad.Club.Blog.Content.Api", Version = "v1" });
             });
         }
 
@@ -40,7 +40,7 @@ namespace Twad.Club.Blog.Content
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Twad.Club.Blog.Content v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Twad.Club.Blog.Content.Api v1"));
             }
 
             app.UseRouting();

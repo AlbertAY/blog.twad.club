@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Twad.Club.Blog.Content
+namespace Twad.Club.Blog.Content.Api
 {
     public class Program
     {

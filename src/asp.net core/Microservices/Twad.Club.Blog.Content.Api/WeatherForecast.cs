@@ -1,6 +1,6 @@
 using System;
 
-namespace Twad.Club.Blog.Content
+namespace Twad.Club.Blog.Content.Api
 {
     public class WeatherForecast
     {

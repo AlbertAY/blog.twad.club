@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Twad.Club.Blog.Content.Application.Contracts\Twad.Club.Blog.Content.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Twad.Club.Blog.Content.Domain\Twad.Club.Blog.Content.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -17,19 +17,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{D455
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrameWork", "FrameWork", "{F3792034-7FDF-4299-81FE-B255F08E4308}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twad.Club.Core", "FrameWork\Twad.Club.Core\Twad.Club.Core.csproj", "{1A24ABC4-0555-4E2E-B20D-60A0F816E3F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twad.Club.Core", "FrameWork\Twad.Club.Core\Twad.Club.Core.csproj", "{1A24ABC4-0555-4E2E-B20D-60A0F816E3F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twad.Club.Blog.Content.Application", "Modules\Content\Twad.Club.Blog.Content.Application\Twad.Club.Blog.Content.Application.csproj", "{E03E03B4-4AD9-404D-9971-80B72C434086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twad.Club.Blog.Content.Application", "Modules\Content\Twad.Club.Blog.Content.Application\Twad.Club.Blog.Content.Application.csproj", "{E03E03B4-4AD9-404D-9971-80B72C434086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twad.Club.Blog.Content.Application.Contracts", "Modules\Content\Twad.Club.Blog.Content.Application.Contracts\Twad.Club.Blog.Content.Application.Contracts.csproj", "{381B18BB-A825-42DC-A063-3F5B11FCE3D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twad.Club.Blog.Content.Application.Contracts", "Modules\Content\Twad.Club.Blog.Content.Application.Contracts\Twad.Club.Blog.Content.Application.Contracts.csproj", "{381B18BB-A825-42DC-A063-3F5B11FCE3D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twad.Club.Blog.Content.Domain", "Modules\Content\Twad.Club.Blog.Content.Domain\Twad.Club.Blog.Content.Domain.csproj", "{8C944D03-F71E-4761-BB25-D02B807AA36E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twad.Club.Blog.Content.Domain", "Modules\Content\Twad.Club.Blog.Content.Domain\Twad.Club.Blog.Content.Domain.csproj", "{8C944D03-F71E-4761-BB25-D02B807AA36E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twad.Club.Blog.Content.Domain.Shared", "Modules\Content\Twad.Club.Blog.Content.Domain.Shared\Twad.Club.Blog.Content.Domain.Shared.csproj", "{420AAC28-384F-4D80-8B49-F10ADCBEBDE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twad.Club.Blog.Content.Domain.Shared", "Modules\Content\Twad.Club.Blog.Content.Domain.Shared\Twad.Club.Blog.Content.Domain.Shared.csproj", "{420AAC28-384F-4D80-8B49-F10ADCBEBDE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twad.Club.Blog.Content.Api", "Microservices\Twad.Club.Blog.Content.Api\Twad.Club.Blog.Content.Api.csproj", "{F91F9A89-DCD7-4F28-A849-D1918FB2F0EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twad.Club.Blog.Content.Api", "Microservices\Twad.Club.Blog.Content.Api\Twad.Club.Blog.Content.Api.csproj", "{F91F9A89-DCD7-4F28-A849-D1918FB2F0EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twad.Club.Util", "FrameWork\Twad.Club.Util\Twad.Club.Util.csproj", "{8F379499-9D5B-4DB4-AAA2-7793AC68F72B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twad.Club.Util", "FrameWork\Twad.Club.Util\Twad.Club.Util.csproj", "{8F379499-9D5B-4DB4-AAA2-7793AC68F72B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

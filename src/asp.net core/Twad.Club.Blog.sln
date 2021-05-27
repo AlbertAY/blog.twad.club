@@ -31,7 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twad.Club.Blog.Content.Api"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twad.Club.Util", "FrameWork\Twad.Club.Util\Twad.Club.Util.csproj", "{8F379499-9D5B-4DB4-AAA2-7793AC68F72B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twad.Club.Blog.Web.Blazor.Admin", "Applications\Twad.Club.Blog.Web.Blazor.Admin\Twad.Club.Blog.Web.Blazor.Admin.csproj", "{FF0CA33B-74F3-4DF2-99D4-020F52C0F54D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twad.Club.Blog.Web.Blazor.Admin", "Applications\Twad.Club.Blog.Web.Blazor.Admin\Twad.Club.Blog.Web.Blazor.Admin.csproj", "{FF0CA33B-74F3-4DF2-99D4-020F52C0F54D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twad.Club.Blog.Content.DB", "Modules\Content\Twad.Club.Blog.Content.DB\Twad.Club.Blog.Content.DB.csproj", "{45FCCA14-4F1D-4F33-BB08-93BA3B8A90F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{5D4B8661-B7C9-49F3-91E4-E241EEA546C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twad.Club.Blog.Identity", "Microservices\Twad.Club.Blog.Identity\Twad.Club.Blog.Identity.csproj", "{BC9641EC-148C-40D1-AF93-B40EE9F29A2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,14 @@ Global
 		{FF0CA33B-74F3-4DF2-99D4-020F52C0F54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF0CA33B-74F3-4DF2-99D4-020F52C0F54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF0CA33B-74F3-4DF2-99D4-020F52C0F54D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45FCCA14-4F1D-4F33-BB08-93BA3B8A90F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FCCA14-4F1D-4F33-BB08-93BA3B8A90F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FCCA14-4F1D-4F33-BB08-93BA3B8A90F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FCCA14-4F1D-4F33-BB08-93BA3B8A90F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9641EC-148C-40D1-AF93-B40EE9F29A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9641EC-148C-40D1-AF93-B40EE9F29A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9641EC-148C-40D1-AF93-B40EE9F29A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9641EC-148C-40D1-AF93-B40EE9F29A2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +104,9 @@ Global
 		{F91F9A89-DCD7-4F28-A849-D1918FB2F0EF} = {47C8418C-1109-4B88-8105-D4AC2F9960FD}
 		{8F379499-9D5B-4DB4-AAA2-7793AC68F72B} = {F3792034-7FDF-4299-81FE-B255F08E4308}
 		{FF0CA33B-74F3-4DF2-99D4-020F52C0F54D} = {28E9582D-D215-4ED0-A3B2-6631E04A26AF}
+		{45FCCA14-4F1D-4F33-BB08-93BA3B8A90F8} = {D4558BD3-84F5-45F9-96FB-DDE39581F895}
+		{5D4B8661-B7C9-49F3-91E4-E241EEA546C0} = {F95818BF-816C-4826-9BC9-81ED8B03AA25}
+		{BC9641EC-148C-40D1-AF93-B40EE9F29A2A} = {47C8418C-1109-4B88-8105-D4AC2F9960FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D7FF3410-E9B3-4C5A-B16C-E448D1096711}

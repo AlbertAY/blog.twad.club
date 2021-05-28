@@ -4,7 +4,7 @@
 
 using IdentityServer4.Models;
 using System.Collections.Generic;
-
+using IdentityServer4;
 namespace Twad.Club.Blog.Identity
 {
     public static class Config

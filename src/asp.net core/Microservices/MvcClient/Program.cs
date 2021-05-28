@@ -13,7 +13,16 @@ namespace MvcClient
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            try
+            {
+                CreateHostBuilder(args).Build().Run();
+            }
+            catch (System.Exception)
+            {
+                
+                throw;
+            }
+            
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
